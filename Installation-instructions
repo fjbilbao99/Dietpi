@@ -1,1 +1,1 @@
-bash -c "$(curl -sSL https://raw.githubusercontent.com/fjbilbao99/Dietpi/master/scripts/install.sh)"
+bash -c "$(curl -sSL https://raw.githubusercontent.com/fjbilbao99/Dietpi/master/scripts/install-digital.sh)"
