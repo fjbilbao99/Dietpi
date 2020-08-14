@@ -1,4 +1,8 @@
 #!/bin/bash
+passwd root
+dietpi
+mkdir /etc/xabi
+cp /etc/network/interfaces /etc/xabi/interfaces
 {
 	#------------------------------------------------------------------------------------------------
 	# Optimise current Debian install and prepare for DietPi installation
@@ -1865,3 +1869,4 @@ _EOF_
 	Main
 	#------------------------------------------------------------------------------------------------
 }
+cp /etc/xabi/interfaces /etc/network/interfaces
