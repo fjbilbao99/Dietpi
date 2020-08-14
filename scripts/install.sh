@@ -1300,8 +1300,7 @@ _EOF_'
 
 		G_DIETPI-NOTIFY 2 'Resetting and adding dietpi.com SSH pub host key for DietPi-Survey/Bugreport uploads:'
 		mkdir -pv /root/.ssh
-		echo 'ssh.dietpi.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDE6aw3r6aOEqendNu376iiCHr9tGBIWPgfrLkzjXjEsHGyVSUFNnZt6pftrDeK7UX+qX4FxOwQlugG4fymOHbimRCFiv6cf7VpYg1Ednquq9TLb7/cIIbX8a6AuRmX4fjdGuqwmBq3OG7ZksFcYEFKt5U4mAJIaL8hXiM2iXjgY02LqiQY/QWATsHI4ie9ZOnwrQE+Rr6mASN1BVFuIgyHIbwX54jsFSnZ/7CdBMkuAd9B8JkxppWVYpYIFHE9oWNfjh/epdK8yv9Oo6r0w5Rb+4qaAc5g+RAaknHeV6Gp75d2lxBdCm5XknKKbGma2+/DfoE8WZTSgzXrYcRlStYN' > /root/.ssh/known_hosts
-		echo 'macbook ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7SuTPfdhgeJ0GGNedRaP6G0y3BCNzKn1nCfMJDiDVxWVXX2SHMqsG58GmLvU5Nl8z98dbNahkxQaYOjSqOUTcT+Ai/NHm/fgpqtcQcdZ1b3jcztV+8HvqMomlzqBLP799JW6AyIA3fncuKJG41i6FzWxTIZrgTuAjqDPZwo9sy/xeumTZ2hald5LDcz0aE9soEKUzUdgSxg+9HwCOUzIiUjTSz7NzQrtIQ05X7d8IGHSFal+XFD5rY0xkcyRh8e3+uBjsQ/W2jO0FIzvcM+CiQRnKvZB894VZ3S22xSgAzTc9LY1v4ysxqwmTso1WmilkwyjMepTZgnkhtnQU2Onv' >> /root/.ssh/known_hosts
+		echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7SuTPfdhgeJ0GGNedRaP6G0y3BCNzKn1nCfMJDiDVxWVXX2SHMqsG58GmLvU5Nl8z98dbNahkxQaYOjSqOUTcT+Ai/NHm/fgpqtcQcdZ1b3jcztV+8HvqMomlzqBLP799JW6AyIA3fncuKJG41i6FzWxTIZrgTuAjqDPZwo9sy/xeumTZ2hald5LDcz0aE9soEKUzUdgSxg+9HwCOUzIiUjTSz7NzQrtIQ05X7d8IGHSFal+XFD5rY0xkcyRh8e3+uBjsQ/W2jO0FIzvcM+CiQRnKvZB894VZ3S22xSgAzTc9LY1v4ysxqwmTso1WmilkwyjMepTZgnkhtnQU2Onv' > /root/.ssh/known_hosts
 		G_DIETPI-NOTIFY 2 'Configuring DNS nameserver:'
 		# Failsafe: Assure that /etc/resolv.conf is not a symlink and disable systemd-resolved
 		systemctl disable --now systemd-resolved
