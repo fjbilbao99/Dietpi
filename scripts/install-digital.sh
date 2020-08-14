@@ -1,6 +1,5 @@
 #!/bin/bash
 passwd root
-dietpi
 mkdir /etc/xabi
 cp /etc/network/interfaces /etc/xabi/interfaces
 {
