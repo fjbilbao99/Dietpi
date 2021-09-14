@@ -6,3 +6,5 @@ reboot
 
 # Dietpi configuraciones folder
 /var/www/owncloud/config
+
+#Directorios
